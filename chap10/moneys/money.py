@@ -11,7 +11,7 @@ class Money():
             (self._currency == other._currency)
     
     def __str__(self) -> str:
-        return self.amount + " " + self.currency
+        return str(self.amount) + " " + self._currency
 
     def currency(self) -> str:
         return self._currency
